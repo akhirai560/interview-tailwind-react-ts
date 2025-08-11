@@ -1,0 +1,17 @@
+.profile-pic {
+    border-radius: 300px;
+}
+
+.responsive {
+
+    overflow: auto;
+
+}
+
+
+@media all and (max-width: 600px) {
+    .responsive {
+        flex-direction: column !important;
+        
+    }
+}
